@@ -1,0 +1,679 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300;1,400&family=Dancing+Script:wght@400;600;700&family=Playball&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+.font-dancing {
+  font-family: "Playfair Display", serif;
+}
+
+.font-playball {
+  font-family: "Playfair Display", serif;
+}
+
+* {
+  font-family: "Playfair Display", serif;
+}
+/* Umum: pastikan elemen parent menggunakan position: relative */
+header,
+#ayat {
+  position: relative;
+}
+
+/* Header Background */
+header .bg1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: none; /* tidak dibalik */
+  rotate: 180deg;
+}
+
+header .bg2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* Ayat Section Background */
+#ayat .bg3 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: none; /* tidak dibalik */
+}
+
+#ayat .bg4 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: none;
+}
+#mempelai {
+  background-image: url(../img/background.jpg);
+}
+#mempelai .bg5 {
+  position: absolute;
+  top: -35px;
+  left: 85px;
+  transform: none; /* tidak dibalik */
+}
+#mempelai .bg6 {
+  position: absolute;
+  bottom: 190px;
+  right: 70px;
+}
+#mempelai .bg7 {
+  position: absolute;
+  top: -35px;
+  left: 85px;
+  transform: none; /* tidak dibalik */
+}
+#mempelai .bg8 {
+  position: absolute;
+  bottom: 140px;
+  right: 70px;
+}
+#salamakhir .bg9 {
+  position: absolute;
+  top: -35px;
+  left: 85px;
+  transform: none; /* tidak dibalik */
+}
+#salamakhir .bg99 {
+  position: absolute;
+  bottom: 150px;
+  right: 70px;
+}
+
+#cerita .bgul {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: -1;
+  transform: none; /* tidak dibalik */
+}
+#cerita .bgul2 {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  z-index: -1;
+}
+
+.kankir {
+  position: relative;
+}
+.bgungu {
+  z-index: -1;
+  background-color: #69622c;
+}
+.bgungu {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.bgbul3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 150px;
+  z-index: 1;
+}
+
+.bgbul4 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100px;
+  z-index: 1;
+}
+.akad .bgg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: none; /* tidak dibalik */
+}
+.akad .bgg2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: none; /* tidak dibalik */
+}
+.resepsi .bgg3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: none; /* tidak dibalik */
+}
+.resepsi .bgg4 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: none; /* tidak dibalik */
+}
+
+.bg-berem {
+  background-color: #69622c;
+}
+#coutdown {
+  background-color: #f6f4f0;
+}
+#cover {
+  background-image: url(../img/background.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+#cover img {
+  border: 4px solid #000000;
+  padding: 6px;
+}
+#wave0 {
+  background-color: #000000;
+}
+#wave2 {
+  background-color: #000000;
+}
+#wave3 {
+  background-color: #f6f4f0;
+}
+#wave6 {
+  background-color: #ffffff;
+}
+#wave5 {
+  background-color: #ffffff;
+}
+#wave7 {
+  background-color: #ffffff;
+}
+#mempelai #m-1 img {
+  border: 4px solid #000000;
+  padding: 6px;
+}
+#mempelai #m-2 img {
+  border: 4px solid #000000;
+  padding: 6px;
+}
+#salamakhir img {
+  border: 4px solid #000000;
+  padding: 6px;
+}
+#mempelai {
+  background-color: #69622c;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+#mempelai #m-1 .instagram {
+  width: 40px;
+  border: #ffffff;
+  background-color: #ffffff;
+  color: rgb(255, 255, 255);
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+#mempelai #m-2 .instagram1 {
+  width: 40px;
+  border: #ffffff;
+  background-color: #ffffff;
+  color: rgb(255, 255, 255);
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+#mempelai #m-1 .ig {
+  cursor: pointer;
+  padding: 3% 5%;
+  background-color: var(--primary);
+  border: 2px solid var(--pastel);
+  font-size: 20px;
+  border-radius: 10px;
+  color: var(--pastel);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+#ayat {
+  color: #ffffff;
+}
+#date {
+  background-color: #69622c;
+}
+#cerita {
+  background-color: #fffbfb;
+}
+#galeri {
+  background-color: #000000;
+}
+#amplop {
+  background-color: #ffffff;
+}
+.text-berem {
+  color: #ffffff;
+}
+.bg-wakwak {
+  background-color: #69622c;
+}
+
+.text-wakwak {
+  background-color: #ffffff;
+}
+
+.bg-fee {
+  background-color: #ffffff;
+}
+
+.bg-kulit {
+  background-color: #ffffff;
+}
+
+.fs-60 {
+  font-size: 80px;
+}
+
+.fs-45 {
+  font-size: 45px;
+}
+
+.fs-40 {
+  font-size: 40px;
+}
+
+.scale {
+  overflow: hidden;
+  transition: 0.5s;
+}
+.scale:hover {
+  transform: scale(1.05);
+}
+
+.norek {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.acara {
+  background-color: var(--primary);
+  color: var(--pastel);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 25px;
+  width: 100%;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.dan {
+  color: var(--primary);
+  font-family: "Playfair Display", serif;
+  /* font-family: "Dancing Script", cursive; */
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 50px;
+  margin: 20px 0;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.akad,
+.resepsi {
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  color: var(--primary);
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 20px;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.akad .judul,
+.resepsi .judul {
+  color: var(--primary);
+  font-size: 30px;
+  font-weight: 700;
+  padding: 10px 0;
+  padding-bottom: -250px;
+  padding-top: 40px;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.akad .tanggal,
+.resepsi .tanggal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  color: var(--primary);
+  padding-bottom: 20px;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.akad .tanggal .angka,
+.resepsi .tanggal .angka {
+  color: var(--primary);
+  font-size: 100px;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.akad .tanggal .teks,
+.resepsi .tanggal .teks {
+  text-align: start;
+  color: var(--primary);
+  font-size: 25px;
+  line-height: 30px;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.akad .garis,
+.resepsi .garis {
+  color: var(--primary);
+  font-size: 35px;
+  margin-top: -20px;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.akad .Lokasi,
+.resepsi .Lokasi {
+  margin-top: -10px;
+  color: var(--primary);
+  padding-bottom: 10px;
+  font-weight: 700;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.lokasi {
+  background-color: #69622c;
+  background-size: 100% 100%;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: auto;
+  padding: 19% 30px;
+  animation: fade-in 800ms ease-in-out;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+.hadiah {
+  background-color: #69622c !important;
+}
+.lokasi h1 {
+  color: white;
+  font-family: "Playfair Display", serif;
+  /* font-family: "Dancing Script", cursive; */
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 20px;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.lokasi p {
+  color: white;
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 20px;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.lokasi .maps {
+  width: 90%;
+  height: 250px;
+  border: 4px solid white;
+  border-radius: 20px;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.lokasi .lihatPeta {
+  color: white;
+  margin-top: 40px;
+  font-weight: 700;
+  font-size: 20px;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+  border-radius: 15px;
+  padding: 5px 40px;
+  transition: all 500ms ease-in-out;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.lokasi .lihatPeta:hover {
+  background-color: #5490ff71;
+  transform: scale(1.1);
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+.hadiah {
+  background-color: var(--primary);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 25px;
+  width: 100%;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+.hadiah p {
+  color: var(--pastel);
+}
+
+.hadiah h1 {
+  color: var(--pastel);
+  font-family: "Playfair Display", serif;
+  /* font-family: "Dancing Script", cursive; */
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 20px;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.hadiah .card {
+  width: 90%;
+  background-color: var(--pastel);
+  margin-top: 20px;
+  border: 3px solid white;
+  border-radius: 20px;
+  padding: 10px;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.hadiah .card .bank {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.hadiah .card .bank p {
+  color: var(--pastel);
+  font-weight: 700;
+  text-align: left;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+.qris-img {
+  display: block;
+  margin: 20px auto;
+  width: 80%;
+}
+
+.hadiah .card img {
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.norek {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.footer {
+  background-color: var(--pastel);
+}
+.kartu-bri {
+  width: 300px;
+  background: linear-gradient(135deg, #ffffff, #e0e0e0);
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  font-family: "Arial", sans-serif;
+  position: relative; /* penting untuk parent dari tombol yang absolute */
+}
+
+.header-kartu {
+  text-align: right;
+}
+
+.logo-bri {
+  width: 50px;
+}
+
+.body-kartu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.kiri-kartu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.chip {
+  width: 40px;
+}
+
+.nomor-rekening {
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+}
+
+.nama-rekening {
+  font-size: 14px;
+  color: #666;
+}
+
+.copy-btn {
+  bottom: 15px;
+  right: 15px;
+  background-color: #ccc;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.copy-btn:hover {
+  background-color: #bbb;
+}
+
+.block .ins {
+  font-size: 30px; /* Ukuran ikon */
+  color: #e1306c; /* Warna ikon (merah muda khas Instagram) */
+}
+.block .tiktok {
+  font-size: 30px; /* Ukuran ikon */
+  color: #000000; /* Warna ikon (merah muda khas Instagram) */
+}
+.galeri2 {
+  padding: 20px;
+  text-align: center;
+  background-color: var(--primary);
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+  color: var(--pastel);
+}
+.mySlide2 {
+  flex: 1 1 calc(33.333% - 16px); /* Tiga gambar per baris di desktop */
+  max-width: calc(33.333% - 16px);
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+.img-container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+.mySlide2 img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+.galeri2 iframe {
+  padding: 5px 5px 15px 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  background-color: white;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+@media (max-width: 640px) {
+  h1 {
+    font-size: 1.5rem !important;
+  }
+  #front-image {
+    display: none;
+  }
+  #front-text {
+    padding-top: 40%;
+    height: 100vh;
+    background: url(../img/background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+#front-image img {
+  width: 100vh;
+  height: 100vh;
+  object-fit: cover;
+}
