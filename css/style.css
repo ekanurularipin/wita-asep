@@ -495,7 +495,7 @@ header .bg2 {
   width: 90%;
   background-color: var(--pastel);
   margin-top: 20px;
-  border: 3px solid white;
+  border: 3px solid #69622c;
   border-radius: 20px;
   padding: 10px;
   animation-timeline: view();
@@ -582,12 +582,12 @@ header .bg2 {
 .nomor-rekening {
   font-weight: bold;
   font-size: 18px;
-  color: #333;
+  color: #69622c;
 }
 
 .nama-rekening {
   font-size: 14px;
-  color: #666;
+  color: #69622c;
 }
 
 .copy-btn {
