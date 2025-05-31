@@ -593,7 +593,7 @@ header .bg2 {
 .copy-btn {
   bottom: 15px;
   right: 15px;
-  background-color: #ccc;
+  background-color: #69622c;
   border: none;
   padding: 6px 12px;
   border-radius: 6px;
@@ -603,7 +603,7 @@ header .bg2 {
 }
 
 .copy-btn:hover {
-  background-color: #bbb;
+  background-color: #69622c;
 }
 
 .block .ins {
